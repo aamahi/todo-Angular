@@ -1,4 +1,4 @@
-<div [ngClass]="{ remainder:task.remainder }" class="task">
+<div [ngClass]="{ remainder:task.remainder }" class="task" (click)="onToggle(task)">
   <h3> {{task.text}} <fa-icon
     [ngStyle]="{color:'red'}"
     [icon]="faTimes"

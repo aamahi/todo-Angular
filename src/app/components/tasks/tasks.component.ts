@@ -25,4 +25,9 @@ export class TasksComponent implements OnInit {
     );
   }
 
+  toggleRemainder(task: Task){
+    task.remainder = !task.remainder;
+    this.TaskService.updateToggleRemainder(task).subscribe();
+  }
+
 }
