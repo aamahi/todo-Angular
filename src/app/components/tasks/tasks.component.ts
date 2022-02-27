@@ -30,4 +30,9 @@ export class TasksComponent implements OnInit {
     this.TaskService.updateToggleRemainder(task).subscribe();
   }
 
+  // addTask(task:Task){
+  //   console.log('hi')
+  // }
+
+
 }
