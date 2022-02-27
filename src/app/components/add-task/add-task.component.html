@@ -1,15 +1,15 @@
 <form class="add-form">
   <div class="form-control">
     <label for="text">Add Task</label>
-    <input type="text" name="text" id="text" placeholder="Add Task Name">
+    <input type="text" name="text" id="text" [(ngModel)]="text" placeholder="Add Task Name">
   </div>
   <div class="form-control">
     <label for="day">Day and Time</label>
-    <input type="text" name="day" id="day" placeholder="Add Day and time">
+    <input type="text" name="day" id="day" [(ngModel)]="day" placeholder="Add Day and time">
   </div>
   <div class="form-control form-control-check">
     <label for="remainder">Set Remainder</label>
-    <input type="checkbox" name="remainder" id="remainder">
+    <input type="checkbox" name="remainder" [(ngModel)]="remainder" id="remainder">
   </div>
   <input type="submit" value="Save" class="btn btn-block">
 </form>

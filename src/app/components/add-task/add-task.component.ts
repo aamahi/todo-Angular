@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AddTaskComponent implements OnInit {
 
+  text!: string;
+  day!: string;
+  remainder: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
