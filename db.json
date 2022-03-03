@@ -4,13 +4,13 @@
       "id": 3,
       "text": "Udemy Angular Course",
       "day": "May 15th at 8:45pm",
-      "remainder": true
+      "remainder": false
     },
     {
       "id": 4,
       "text": "Food Shiping",
       "day": "May 15th at 10:00am",
-      "remainder": false
+      "remainder": true
     },
     {
       "text": "Playing Cricket",
