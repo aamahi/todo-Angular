@@ -24,16 +24,17 @@ export class AddTaskComponent implements OnInit {
       return;
     }
 
-    // const newTask = {
-    //   text: this.text,
-    //   day: this.day,
-    //   remainder: this.remainder,
-    // };
-    //
-    // this.onAddTask.emit(newTask);
-    // this.text = '';
-    // this.day = '';
-    // this.remainder = false;
+    const newTask = {
+      text: this.text,
+      day: this.day,
+      remainder: this.remainder,
+    };
+
+    this.onAddTask.emit(newTask);
+    this.text = '';
+    this.day = '';
+    this.remainder = false;
+
   }
 
 }
