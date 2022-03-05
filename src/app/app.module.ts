@@ -12,6 +12,7 @@ import { HttpClientModule } from "@angular/common/http";
 import { AddTaskComponent } from './components/add-task/add-task.component';
 import { FormsModule } from "@angular/forms";
 import { RouterModule, Routes } from "@angular/router";
+import { AboutComponent } from './components/about/about.component';
 
 const appRoutes: Routes = [
   { path: '', component:TasksComponent }
@@ -24,7 +25,8 @@ const appRoutes: Routes = [
     ButtonComponent,
     TasksComponent,
     TaskItemComponent,
-    AddTaskComponent
+    AddTaskComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

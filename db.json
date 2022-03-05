@@ -4,7 +4,7 @@
       "id": 3,
       "text": "Udemy Angular Course",
       "day": "May 15th at 8:45pm",
-      "remainder": false
+      "remainder": true
     },
     {
       "id": 4,
