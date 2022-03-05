@@ -11,6 +11,11 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HttpClientModule } from "@angular/common/http";
 import { AddTaskComponent } from './components/add-task/add-task.component';
 import { FormsModule } from "@angular/forms";
+import { RouterModule, Routes } from "@angular/router";
+
+const appRoutes: Routes = [
+  { path: '', component:TasksComponent }
+]
 
 @NgModule({
   declarations: [
@@ -26,7 +31,8 @@ import { FormsModule } from "@angular/forms";
     AppRoutingModule,
     FontAwesomeModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(appRoutes, { enableTracing: true })
   ],
   providers: [],
   bootstrap: [AppComponent]
