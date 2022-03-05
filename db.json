@@ -10,7 +10,7 @@
       "id": 4,
       "text": "Food Shiping",
       "day": "May 15th at 10:00am",
-      "remainder": true
+      "remainder": false
     },
     {
       "text": "Playing Cricket",
